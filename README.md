@@ -2,7 +2,7 @@
 
 This Wordpress plugin is designed to make creating and maintaining transit websites as simple as possible. It supplies Route, Timetable, Alert, and Board Meeting custom post types, pulls in route and timetable information programmatically from GTFS data, and features and API with many convenience functions for common transit site problems.
 
-[Read more about the API](https://trillium-solutions.github.io/transit-custom-posts/) and how to use the plugin.
+[Read more about the API]() and how to use the plugin.
 
 ## Installation
 
