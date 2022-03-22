@@ -2,13 +2,13 @@
 
 This Wordpress plugin is designed to make creating and maintaining transit websites as simple as possible. It supplies Route, Timetable, Alert, and Board Meeting custom post types, pulls in route and timetable information programmatically from GTFS data, and features and API with many convenience functions for common transit site problems.
 
-Read more about the API and how to use the plugin.
+[Read more about the API](https://trillium-solutions.github.io/public-transit-custom-posts/) and how to use the plugin.
 
 ## Installation
 
 If you download a compatible theme such as [Transit Base Template](https://github.com/trilliumtransit/transit-base-template), it will direct you to automatically install this plugin. Otherwise, if you would like to use it on its own to develop your own theme or integrate it with an existing theme:
 
-* [Download ZIP](https://github.com/trillium-solutions/public-transit-custom-posts/archive/main.zip)
+* [Download ZIP](https://github.com/trilliumtransit/transit-custom-posts/archive/master.zip)
 * Install from WP Admin area in Plugins > Add New > Upload Plugin
 
 Afterward, you can configure the plugin from the WP Admin screen in the Transit Custom Posts submenus. More documentation is available on the Github site for this project.

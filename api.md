@@ -1,6 +1,6 @@
 # Developer API
 
-[Read the full docs](https://trilliumtransit.github.io/transit-custom-posts/api-docs/)
+[Read the full docs](https://trillium-solutions.github.io/public-transit-custom-posts/api-docs/)
 
 The developer API provides a number of convenience functions to use in your theme that handle issues such as consistent route names, accessing active alerts and timetables, and retrieving post metadata imported from GTFS.
 
