@@ -18,4 +18,4 @@ This plugin is based on years of experience building transit websites, incorpora
 
 Transit Custom Posts is released under the GPLv2, and we welcome contributions to the project. You're also welcome to take what we have and make something great with it. Make the next best transit theme, or the next best plugin. We seek to improve the quality and accessibility of transit through excellent technology, and hope this inspires you to do something good with it.
 
-See the [Github repo](https://github.com/trillium-solutions/public-transit-custom-posts) for more information on contributing.
+<!-- See the [Github repo](https://github.com/trillium-solutions/public-transit-custom-posts) for more information on contributing. -->
