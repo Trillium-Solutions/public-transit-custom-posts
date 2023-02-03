@@ -1,14 +1,14 @@
 # Custom Post Types
 
-There are four optional custom post types that can be individually activated: routes, timetables, alerts, and board meetings. Routes and timetables can be updated via [GTFS update](gtfs-update.md). Although alerts and meetings are not derived from GTFS data, we've opted to include them because they are present on most transit sites and benefit greatly from being integrated. For example, when creating an alert you are able to select affected routes from a menu of all active routes.
+There are three optional custom post types that can be individually activated: routes, timetables, and alerts. Routes and timetables can be updated via [GTFS update](gtfs-update.md). Although alerts are not derived from GTFS data, we've opted to include them because they are present on most transit sites and benefit greatly from being integrated. For example, when creating an alert you are able to select affected routes from a menu of all active routes.
 
 ## Settings
 
-The plugin has two settings pages: Custom Post Types and GTFS Settings. The GTFS Settings are covered in the [GTFS update](gtfs-update.md) section. If you have not selected any custom post types, the settings page will look quite empty. Each custom post type has its own settings for display. These settings can, in some cases, be overridden in the theme.
+The plugin has six sub-menu pages: Custom Post Types, Route Options, Timetable Options, Alert Options, Custom Dev Settings and GTFS Settings. The GTFS Settings are covered in the [GTFS update](gtfs-update.md) section. If you have not selected any custom post types, the settings page will look quite empty. Each custom post type has its own settings for display. These settings can, in some cases, be overridden in the theme.
 
 ## Routes
 
-Routes are the most common custom post type and often one of the most important types of content on a transit site. (There are, of course, exceptions.) The plugin will pull the route's short name, long name, description, color, and sort order from the GTFS if the fields are available. 
+Routes are the most common custom post type and often are one of the most important types of content on a transit site. (There are, of course, exceptions.) The plugin will pull the route's short name, long name, description, color, and sort order from the GTFS if the fields are available. 
 
 ### Options
 
@@ -44,11 +44,7 @@ It is simple to create alerts, attach them to specific routes (or make them syst
 An alert will only show up if both an effective date and an end date are set. The alert will no longer show up after the end date, although you will still need to delete it manually to remove it completely. 
 
 In cases where there is no end date (e.g. when the alert is a permanent change, such as a new stop order), we recommend making the end date something safely after the change, to give time for riders to read the notice. This is a known [bug](https://github.com/trilliumtransit/transit-custom-posts/issues/1) that some users may wish to not specify a date for clarity.
-
-### The Alert Widget
-
-An alert widget makes it easy to drag-and-drop alerts into any type of Wordpress theme from the Widgets screen. It can be customized with the number of alerts to show, and whether or not to include affected routes. 
-
+ 
 ## Timetables
 
 We recommend generating timetables with [GTFS-to-HTML](https://github.com/BlinkTagInc/gtfs-to-html); generating the timetable HTML is beyond the scope of this plugin. Both GTFS-to-HTML and this plugin rely on an optional GTFS file: `timetables.txt`. More information can be found in [GTFS update](gtfs-update.md).
@@ -62,10 +58,5 @@ You can still use the timetable custom posts without the `timetables.txt` file o
 * *End Date* : yyyymmdd format
 
 In addition, you'll need to supply either the timetable HTML or an image as the post content. 
-
-## Board Meetings
-
-The meetings custom post type is still under discussion; it's commonly used by many transit agencies but doesn't actually interact with the GTFS in any way. 
-
 
 [Back to Overview](index.md)

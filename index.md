@@ -1,6 +1,6 @@
 # Overview
 
-The Transit Custom Posts plugin makes it easy to create public transit sites that are accessible and easy-to-use. It creates route, timetable, alert, and board meeting custom post types and supplies a variety of convenience functions via a simple API to access the custom content. Route and timetable information can be pulled directly from a GTFS feed, making maintenance simpler and more consistent.
+The Transit Custom Posts plugin makes it easy to create public transit sites that are accessible and easy-to-use. It creates route, timetable and alert custom post types and supplies a variety of convenience functions via a simple API to access the custom content. Route and timetable information can be pulled directly from a GTFS feed, making maintenance simpler and more consistent.
 
 This plugin is based on years of experience building transit websites, incorporating solutions to many common problems and features proven useful to transit agencies with widely varying needs and services.
 
